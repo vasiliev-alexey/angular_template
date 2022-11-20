@@ -1,9 +1,7 @@
-import {Component} from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
-    selector: 'my-app',
-    template: `<h2>Hello Angular! Welcome Webpack!</h2>`
+  selector: 'app-my',
+  template: `<h2>Hello Angular! Welcome Webpack!</h2>`,
 })
-export class AppComponent {
-}
-
+export class AppComponent {}
