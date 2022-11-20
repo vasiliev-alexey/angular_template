@@ -10,3 +10,5 @@
 | eslint     |  8.28  |
 | prettier   |  2.7   |
 | husky      |  8.0   |
+| jest       |   28   |
+| storybook  |  6.5   |
