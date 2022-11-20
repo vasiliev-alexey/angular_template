@@ -6,9 +6,11 @@
     "moduleResolution": "node",
     "sourceMap": true,
     "emitDecoratorMetadata": true,
+    "allowSyntheticDefaultImports": true,
     "experimentalDecorators": true,
     "lib": [ "es2022", "dom" ],
     "noImplicitAny": true,
+    "types": ["jest", "node"],
     "suppressImplicitAnyIndexErrors": true,
     "typeRoots": [
       "node_modules/@types/"
