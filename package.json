@@ -9,14 +9,15 @@
   },
   "author": "vasiliev-alexey",
   "scripts": {
-    "build": "webpack",
+    "build": "webpack -o ./dist/app",
     "dev": "webpack serve",
     "preinstall": "npx only-allow pnpm",
     "lint": "eslint . && prettier --check .",
     "lint-staged": "lint-staged",
     "lint:fix": "eslint . --fix && prettier --write .",
     "prepare": "husky install",
-    "test": "jest --coverage  --detectOpenHandles --forceExit"
+    "test": "jest --coverage  --detectOpenHandles --forceExit",
+    "build-storybook": "build-storybook -o ./dist/sb "
   },
   "lint-staged": {
     "*.{js,ts}": "eslint --fix",
