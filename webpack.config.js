@@ -10,7 +10,7 @@ module.exports = {
     },
     output: {
         path: path.resolve(__dirname, 'dist'),     // путь к каталогу выходных файлов - папка public
-        publicPath: '/app',
+        publicPath: './app',
         filename: '[name].[fullhash].js'
     },
     devServer: {
