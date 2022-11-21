@@ -10,14 +10,14 @@
   "author": "vasiliev-alexey",
   "scripts": {
     "build": "webpack -o ./dist/app",
+    "build-storybook": "build-storybook -o ./dist/sb ",
     "dev": "webpack serve",
     "preinstall": "npx only-allow pnpm",
     "lint": "eslint . && prettier --check .",
     "lint-staged": "lint-staged",
     "lint:fix": "eslint . --fix && prettier --write .",
     "prepare": "husky install",
-    "test": "jest --coverage  --detectOpenHandles --forceExit",
-    "build-storybook": "build-storybook -o ./dist/sb "
+    "test": "jest --coverage  --detectOpenHandles --forceExit"
   },
   "lint-staged": {
     "*.{js,ts}": "eslint --fix",
@@ -49,6 +49,7 @@
     "@storybook/builder-webpack5": "^6.5.13",
     "@storybook/manager-webpack5": "^6.5.13",
     "@types/jest": "^29.2.3",
+    "@types/node": "^18.11.9",
     "@typescript-eslint/eslint-plugin": "^5.43.0",
     "@typescript-eslint/parser": "^5.43.0",
     "angular2-template-loader": "~0.6.2",
