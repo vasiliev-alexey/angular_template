@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "rootDir": "/",
+    "target": "es2022",
+    "module": "es2022",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "lib": [ "es2022", "dom" ],
+    "noImplicitAny": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "typeRoots": [
+      "node_modules/@types/"
+    ]
+  },
+
+  "exclude": [
+    "node_modules"
+  ]
+}
