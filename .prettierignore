@@ -1,0 +1,6 @@
+coverage/**
+dist/**
+.eslintrc.js.bak
+pnpm-lock.yaml
+webpack.config.js
+tsconfig.json
